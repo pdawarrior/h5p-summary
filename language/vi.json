@@ -1,36 +1,37 @@
+﻿
 {
   "semantics": [
     {
-      "label": "Introduction text",
-      "default": "Choose the correct statement.",
-      "description": "Will be displayed above the summary task."
+      "label": "Văn bản giới thiệu",
+      "default": "Chọn tuyên bố chính xác.",
+      "description": "Sẽ được hiển thị trên nhiệm vụ tóm tắt."
     },
     {
       "widgets": [
         {
-          "label": "Default"
+          "label": "Mặc định"
         },
         {
-          "label": "Textual"
+          "label": "Văn bản"
         }
       ],
-      "label": "Summary",
-      "entity": "statements",
-      "field": {
-        "label": "Set of statements",
+      "label": "Tóm tắt",
+      "entity": "báo cáo",
+      "fields": {
+        "label": "Bộ báo cáo",
         "fields": [
           {
-            "label": "List of statements for the summary - the first statement is correct.",
-            "entity": "statement",
-            "field": {
-              "label": "Statement"
+            "label": "Danh sách các câu lệnh để tóm tắt - câu lệnh đầu tiên là chính xác.",
+            "entity": "tuyên bố",
+            "fields": {
+              "label": "Tuyên bố"
             }
           },
           {
-            "label": "Tip",
+            "label": "Gợi ý",
             "fields": [
               {
-                "label": "Tip text"
+                "label": "Văn bản gợi ý"
               }
             ]
           }
@@ -38,26 +39,26 @@
       }
     },
     {
-      "label": "Overall Feedback",
+      "label": "Phản hồi tổng thể",
       "fields": [
         {
           "widgets": [
             {
-              "label": "Default"
+              "label": "Mặc định"
             }
           ],
-          "label": "Define custom feedback for any score range",
-          "description": "Click the \"Add range\" button to add as many ranges as you need. Example: 0-20% Bad score, 21-91% Average Score, 91-100% Great Score!",
+          "label": "Xác định phản hồi tùy chỉnh cho bất kỳ thang điểm nào",
+          "description": "Nhấp vào nút \"Thêm phạm vi\" để thêm bao nhiêu phạm vi bạn cần. Ví dụ: 0-20% Điểm kém, 21-91% Điểm trung bình, 91-100% Điểm tuyệt vời!",
           "entity": "range",
-          "field": {
+          "fields": {
             "fields": [
               {
-                "label": "Score Range"
+                "label": "Thang điểm"
               },
               {},
               {
-                "label": "Feedback for defined score range",
-                "placeholder": "Fill in the feedback"
+                "label": "Phản hồi cho thang điểm được xác định",
+                "placeholder": "Điền vào phản hồi"
               }
             ]
           }
@@ -65,45 +66,45 @@
       ]
     },
     {
-      "label": "Text displayed before number of statements solved in the summary task.",
-      "default": "Progress:",
-      "description": "Will be displayed above the statements. Example: 'Progress: 2/5'"
+      "label": "Văn bản được hiển thị trước số lượng câu lệnh được giải quyết trong tác vụ tóm tắt.",
+      "default": "Tiến trình:",
+      "description": "Sẽ được hiển thị trên các báo cáo. Ví dụ: 'Tiến trình: 2/5' "
     },
     {
-      "label": "Text displayed before number of wrong statements selected in the summary task.",
-      "default": "Wrong answers:",
-      "description": "Will be displayed above the statements. Example: 'Wrong answers: 4'"
+      "label": "Văn bản được hiển thị trước số lượng câu lệnh sai được chọn trong tác vụ tóm tắt.",
+      "default": "Câu trả lời sai:",
+      "description": "Sẽ được hiển thị trên các báo cáo. Ví dụ: 'Câu trả lời sai: 4' "
     },
     {
-      "label": "Summary feedback header",
-      "default": "Your result",
-      "description": "Will be displayed above the summary feedback."
+      "label": "Tiêu đề phản hồi tóm tắt",
+      "default": "Kết quả của bạn",
+      "description": "Sẽ được hiển thị phía trên phản hồi tóm tắt."
     },
     {
-      "label": "Readspeaker text for correct answer",
-      "default": "Correct."
+      "label": "Văn bản đọc cho câu trả lời đúng",
+      "default": "Chính xác."
     },
     {
-      "label": "Readspeaker text for incorrect answer",
-      "default": "Incorrect! Please try again."
+      "label": "Văn bản trình đọc cho câu trả lời không chính xác",
+      "default": "Không chính xác! Vui lòng thử lại."
     },
     {
-      "label": "Label list of correct answers",
-      "default": "Correct answers."
+      "label": "Danh sách nhãn của câu trả lời đúng",
+      "default": "Câu trả lời đúng."
     },
     {
-      "label": "Label for the show tip button",
-      "default": "Show tip"
+      "label": "Nhãn cho nút mẹo hiển thị",
+      "default": "Hiển thị mẹo"
     },
     {
-      "label": "Textual representation of the score bar for those using a readspeaker",
-      "description": ":num and :total are special keywords which are programmatically updated",
-      "default": "You got :num out of :total points"
+      "label": "Biểu diễn văn bản của thanh điểm cho những người sử dụng bộ đọc",
+      "description": ": num và: Total là những từ khóa đặc biệt được cập nhật theo chương trình",
+      "default": "Bạn đã nhận: num out: tổng số điểm"
     },
     {
-      "label": "Text used for readspeakers to communicate progress",
-      "description": ":num and :total are special keywords which are programmatically updated",
-      "default": "Progress :num of :total"
+      "label": "Văn bản được sử dụng cho người đọc để truyền đạt tiến trình",
+      "description": ":num và :total là những từ khóa đặc biệt được cập nhật theo chương trình",
+      "default": "Tiến trình :num of :total"
     }
   ]
 }
