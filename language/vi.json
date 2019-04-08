@@ -3,7 +3,7 @@
   "semantics": [
     {
       "label": "Văn bản giới thiệu",
-      "default": "Chọn tuyên bố chính xác.",
+      "default": "Chọn câu tóm tắt chính xác.",
       "description": "Sẽ được hiển thị trên nhiệm vụ tóm tắt."
     },
     {
@@ -16,15 +16,15 @@
         }
       ],
       "label": "Tóm tắt",
-      "entity": "báo cáo",
-      "fields": {
-        "label": "Bộ báo cáo",
+      "entity": "statements",
+      "field": {
+        "label": "Bộ câu tóm tắt",
         "fields": [
           {
-            "label": "Danh sách các câu lệnh để tóm tắt - câu lệnh đầu tiên là chính xác.",
-            "entity": "tuyên bố",
-            "fields": {
-              "label": "Tuyên bố"
+            "label": "Danh sách các câu tóm tắt - câu đầu tiên là đúng.",
+            "entity": "statement",
+            "field": {
+              "label": "Câu tóm tắt"
             }
           },
           {
@@ -50,7 +50,7 @@
           "label": "Xác định phản hồi tùy chỉnh cho bất kỳ thang điểm nào",
           "description": "Nhấp vào nút \"Thêm phạm vi\" để thêm bao nhiêu phạm vi bạn cần. Ví dụ: 0-20% Điểm kém, 21-91% Điểm trung bình, 91-100% Điểm tuyệt vời!",
           "entity": "range",
-          "fields": {
+          "field": {
             "fields": [
               {
                 "label": "Thang điểm"
@@ -66,14 +66,14 @@
       ]
     },
     {
-      "label": "Văn bản được hiển thị trước số lượng câu lệnh được giải quyết trong tác vụ tóm tắt.",
+      "label": "Văn bản được hiển thị trước số lượng câu tóm tắt được giải quyết trong tác vụ tóm tắt.",
       "default": "Tiến trình:",
-      "description": "Sẽ được hiển thị trên các báo cáo. Ví dụ: 'Tiến trình: 2/5' "
+      "description": "Sẽ được hiển thị trên các câu tóm tắt. Ví dụ: 'Tiến trình: 2/5' "
     },
     {
-      "label": "Văn bản được hiển thị trước số lượng câu lệnh sai được chọn trong tác vụ tóm tắt.",
+      "label": "Văn bản được hiển thị trước số lượng câu tóm tắt sai được chọn trong tác vụ tóm tắt.",
       "default": "Câu trả lời sai:",
-      "description": "Sẽ được hiển thị trên các báo cáo. Ví dụ: 'Câu trả lời sai: 4' "
+      "description": "Sẽ được hiển thị trên các câu tóm tắt. Ví dụ: 'Câu trả lời sai: 4' "
     },
     {
       "label": "Tiêu đề phản hồi tóm tắt",
@@ -94,7 +94,7 @@
     },
     {
       "label": "Nhãn cho nút mẹo hiển thị",
-      "default": "Hiển thị mẹo"
+      "default": "Hiển thị gợi ý"
     },
     {
       "label": "Biểu diễn văn bản của thanh điểm cho những người sử dụng bộ đọc",
