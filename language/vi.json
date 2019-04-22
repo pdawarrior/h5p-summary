@@ -1,5 +1,4 @@
-﻿
-{
+﻿{
   "semantics": [
     {
       "label": "Văn bản giới thiệu",
@@ -81,25 +80,25 @@
       "description": "Sẽ được hiển thị phía trên phản hồi tóm tắt."
     },
     {
-      "label": "Văn bản đọc cho câu trả lời đúng",
-      "default": "Chính xác."
+      "label": "Văn bản trình đọc cho câu trả lời đúng",
+      "default": "Đúng."
     },
     {
-      "label": "Văn bản trình đọc cho câu trả lời không chính xác",
-      "default": "Không chính xác! Vui lòng thử lại."
+      "label": "Văn bản trình đọc cho câu trả lời không đúng",
+      "default": "Không đúng! Vui lòng thử lại."
     },
     {
       "label": "Danh sách nhãn của câu trả lời đúng",
       "default": "Câu trả lời đúng."
     },
     {
-      "label": "Nhãn cho nút mẹo hiển thị",
+      "label": "Nhãn cho nút hiển thị gợi ý",
       "default": "Hiển thị gợi ý"
     },
     {
-      "label": "Biểu diễn văn bản của thanh điểm cho những người sử dụng bộ đọc",
-      "description": ": num và: Total là những từ khóa đặc biệt được cập nhật theo chương trình",
-      "default": "Bạn đã nhận: num out: tổng số điểm"
+      "label": "Trình bày văn bản của thanh điểm cho những người sử dụng bộ đọc",
+      "description": ":num và :total là những từ khóa đặc biệt được cập nhật theo chương trình",
+      "default": "Bạn đã nhận :num trong :total điểm"
     },
     {
       "label": "Văn bản được sử dụng cho người đọc để truyền đạt tiến trình",
